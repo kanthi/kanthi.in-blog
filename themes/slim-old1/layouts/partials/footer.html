@@ -1,0 +1,7 @@
+<div class="footer">
+  {{ if isset .Site.Params "FooterMsg" }}
+  <p>{{ .Site.Params.FooterMsg | safeHTML }}</p>
+  {{else}}
+  <p>© Copyright 2017, K.I.N.G.
+  {{end}}
+</div>
