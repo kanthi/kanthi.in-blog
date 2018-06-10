@@ -7,12 +7,10 @@ categories =["Sublime Text","Setup"]
 
 +++
 
-
 ![](/img/my-sublimetext-setup/st31.png)
 ![](/img/my-sublimetext-setup/st32.png)
 
-
-SublimeText has been my goto text editor since it launched  
+SublimeText has been my goto text editor since it launched
 
 Package Control
 
@@ -20,7 +18,6 @@ Package Control
 "dictionary": "Packages/Language - English/en_US.dic",
 
 emmet gtkdarkthemevariantsetter markdown-extended markdown-html-preview markdown-preview materialize package control wakatime
-
 
 Trailing Spaces
 livereload
@@ -48,14 +45,12 @@ https://scotch.io/bar-talk/sublime-text-keyboard-shortcuts
 
 ## UI
 
-
 #### Theme
+
 [Materialize](https://github.com/saadq/Materialize)
 GtkDarkThemeVariantSetter
 
-
 ## General Configuration
-
 
 ## WebDev
 
@@ -78,12 +73,11 @@ csslint
 
 ## Python Dev
 
-## Go  Dev
+## Go Dev
 
 ## C Dev
 
 /opt/sublimetext3 open package file to change the default build system
-
 
         //C.sublime-build
         //A sublime build system configuration file for C.
@@ -98,7 +92,6 @@ csslint
         "selector": "source.c",
 
         }
-
 
 http://www.creativebloq.com/web-design/become-sublime-text-power-user-121518438
 
