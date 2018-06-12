@@ -1,7 +1,7 @@
 +++
 
 date = "2017-06-21T14:00:23+05:30"
-draft = true
+draft = false
 title = "My Linux Laptop Setup ( Hp-Elitebook + Elementary OS Loki ) "
 tags = [ "general","setup","elementary_os"]
 categories =["General","Setup","Elementary_OS"]
@@ -96,11 +96,9 @@ just extend default theme. They make wingpanel icons look better .
         sudo apt update
         sudo apt upgrade && sudo apt install elementary-add-icon-theme
 
-
-
 Also few other icon themes that I have installed .....
 
- sudo add-apt-repository ppa:papirus/papirus
+sudo add-apt-repository ppa:papirus/papirus
 sudo apt-get update
 sudo apt-get install papirus-icon-theme
 
@@ -261,7 +259,6 @@ Node is required for Firebase-tools that I use to deploy my websites.
              sudo add-apt-repository ppa:libreoffice/ppa
              sudo apt updatew
              sudo apt install libreoffice-gtk2 libreoffice-gnome libreoffice-writer
-
 
 #### Misc Tools
 
@@ -625,8 +622,6 @@ Download the latest vagrant deb file https://www.vagrantup.com/
 
         wget https://releases.hashicorp.com/vagrant/1.9.5/vagrant_1.9.5_x86_64.deb
         sudo dpkg -i vagrant_1.9.5_x86_64.deb
-
-
 
 #### Docker
 
