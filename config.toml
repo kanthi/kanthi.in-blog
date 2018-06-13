@@ -12,4 +12,4 @@ theme="slim"
   Summary = false  # takes true or false
   Content = false  # takes true or false
   # if both are set to true, summary is shown.
-  FooterMsg = "Copyright K.I.N.G 2017 "
+  FooterMsg = "Copyright K.I.N.G 2018 "
