@@ -1,7 +1,7 @@
 +++
 date = "2017-01-01T14:00:23+05:30"
 draft = true
-title = "Hello 2017 .......  Hello Blogging  ....... Hello Hugo"
+title = "Hello .... Hello Hugo ... Hello Netlify"
 tags = [ "general"]
 categories =["General"]
 

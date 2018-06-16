@@ -1,7 +1,7 @@
 +++
 
 date = "2017-06-21T14:00:23+05:30"
-draft = true
+draft = false
 title = "My Linux Laptop Setup ( Hp-Elitebook + Elementary OS Loki ) "
 tags = [ "general","setup","elementary_os"]
 categories =["General","Setup","Elementary_OS"]
@@ -12,9 +12,9 @@ categories =["General","Setup","Elementary_OS"]
 
 ![](/img/my-linux-laptop-setup/1.png)
 
-After being in draft for years I am finally publishing this post updated to my current setup.
+After being in draft for years I am finally publishing this post updated to my current setup(Loki).
 
-I started writing this as a documentation of my setup for self, then its good to share onces experiences.
+I started writing this as a documentation of my setup for self, then i thought its good to share once experience.
 
 Linux has always been my choice of OS at home from early days of my computer usage.
 
@@ -22,7 +22,9 @@ Mandrake Linux was the only distro at that time known to me until I was introduc
 
 This changed when my friends started using MacBook Pro in year 2010, I couldn't resist myself and went on to install hackintosh on my PC. It took a lot of effort ... I mean I had to struggle with lot of iterations for drivers to make things work. Even though I was using iPhone already, this is my first Mac OS experience. The best thing was how my workflow improved with Mac OS. Though now and then stability was an issue with my Hackintosh.
 
-By the end of 2012, I got my new laptop HP EliteBook 2570p, suddenly I have a laptop with 16GB RAM, Intel Core i7 , dual SSD disk etc. I was determined to have best possible setup. First thing I did was to remove windows 7 on it completely. Initially I considered to go with Hackintosh, after some effort I opted out due to stability issues(Now a days I triple boot into WIN10/Linux one first SSD and Hackinstosh from second ssd on this laptop for my iPad sync). My primary OS is Linux (Elementary OS) unless I specifically need WIN or MacOS.
+By the end of 2012, I got my new laptop HP EliteBook 2570p, suddenly I have a laptop with 16GB RAM, Intel Core i7 , dual SSD disk etc. I was determined to have best possible setup. 
+
+First thing I did was to remove windows 7 on it completely. Initially I considered to go with Hackintosh, after some effort I opted out due to stability issues(Now a days I triple boot into WIN10/Linux on first SSD and Hackinstosh from second ssd on this laptop for my iPad sync). My primary OS is Linux (Elementary OS) unless I specifically need WIN or MacOS.
 
 ![](/img/my-linux-laptop-setup/about.png)
 
@@ -32,10 +34,9 @@ At this time I started looking out for linux distros other than Ubuntu with good
 
 Due to its simplicity I have been more productive too. I started with Luna --> Freya --> Loki and it just gets better with every release. The current Loki release of 0.4.1 is a massive one.
 
-I have done fresh install for every new release, with daily ppa enabled. This time I have decided to go without daily ppa for Lok1 0.4.1 . Also I have tried to use apps(gimp,darktable etc) from appcenter for most of them unlike earlier setups where I tried to use external ppa to get most latest releases of apps.
+I have done fresh install for every new release. Also I have tried to use apps(gimp,darktable etc) from appcenter for most of them unlike earlier setups where I tried to use external ppa to get most latest releases of apps.
 
-Over the period of decade I have come to like and use many tools, I do not use everything on daily basis
-I just love to have them installed and configured to be used when needed.
+Over the period of decade I have come to like and use many tools, I do not use everything on daily basis I just love to have them installed and configured to be used when needed.
 
 The following is the effort to document my setup.
 
@@ -61,6 +62,7 @@ PPA support is not available by default in Loki, for some good reasons . Though
 it is impossible to completely stay away from it for someone like me.
 
         sudo apt install software-properties-common --no-install-recommends
+
 
 #### Basic compression tools
 
@@ -98,9 +100,9 @@ just extend default theme. They make wingpanel icons look better .
 
 Also few other icon themes that I have installed .....
 
-sudo add-apt-repository ppa:papirus/papirus
-sudo apt-get update
-sudo apt-get install papirus-icon-theme
+        sudo add-apt-repository ppa:papirus/papirus
+        sudo apt-get update
+        sudo apt-get install papirus-icon-theme
 
 I prefer not to install any GTK themes as I love default Elementary GTK Theme
 
@@ -160,14 +162,9 @@ I use it for its inbuilt vpn feature plus when ever I dont need chrome . I befor
 
 Install from Appcenter
 
-#### Vivaldi
-
-Just for fun
-
 #### FeedReader
 
-FeedReader had move to FLATPACK app packaging and PPA is not longer maintained
-I have started using FEEDLY chrome app now. It save a lot of space on disk ;-)
+Lately using Feedly webapp
 
 ### Dev Setup
 
@@ -192,35 +189,12 @@ for apt.
 
 ![](/img/my-linux-laptop-setup/sublime-text-3.png)
 
-I will detail my sublime text 3 setup in detail in another blog post
+##### VS Code
 
-#### Brackets
-
-![](/img/my-linux-laptop-setup/brackets.png)
-
-This is used purely for web dev/design (HTML+ CSS + JS ). The direct downloaded
-deb file did not install due to some missing deps...so went on to install from
-webupd8team ppa
-
-        sudo add-apt-repository ppa:webupd8team/brackets
-        sudo apt-get install brackets
+Now a days exploring VS Code and i started loving it sooner than expected as I used to descpice anything M$
 
 ### Tools
 
-#### Synapse (Not using currently)
-
-        sudo add-apt-repository ppa:synapse-core/ppa
-        sudo apt-get update
-        sudo apt-get install synapse
-
-#### Power Management
-
-For Laptop : Install TLP for Improve Battery Life and Reduce Overheating
-
-        sudo add-apt-repository ppa:linrunner/tlp
-        sudo apt-get update
-        sudo apt-get install tlp tlp-rdw
-        sudo tlp start
 
 #### Slack Client
 
@@ -228,13 +202,7 @@ Slack provides official client for linux
 
 #### Install torrent client
 
-Deluge is my prefered torrent client.
-
-          sudo apt install libtorrent-rasterbar8
-          sudo apt install python-libtorrent
-
-          sudo add-apt-repository ppa:deluge-team/ppa
-          sudo apt update && sudo apt install deluge
+Transmission from AppCenter
 
 #### Install JAVA
 
@@ -393,6 +361,8 @@ Its obvious , its Filezilla client. Hope to see Trasmit like client on Linux.
 
 #### Safe Eyes
 
+A simple utitly that forces you to take breaks
+
 ### PPA Purge
 
 Some times when PPA installs go bad..this tool helps to restore
@@ -474,6 +444,30 @@ Wallpaper plays a very important role for me ;-) . [Variety](http://peterlevi.co
 
 After trying out various tools I have decided on KAZAM . Its simple and usefull
 
+
+#### Peek
+
+Its a simple tool to record your screen and export into multiple formats including gif
+Some of the gifs on this blogs are creating using the same.
+
+        sudo add-apt-repository ppa:peek-developers/stable
+        sudo apt update
+        sudo apt install peek
+
+![](/img/my-linux-laptop-setup/diskspace.png)
+
+#### Mogrify
+
+mogrify -path ../PathToFolder/ -format ico -density 600 -define icon:auto-resize=128,64,48,32,16 \*.svg
+
+#### Caffeine
+
+When you do not want be disturbed by screen saver etc
+
+sudo add-apt-repository ppa:caffeine-developers/ppa
+sudo apt-get update
+sudo apt-get install caffeine
+
 ### Screenkey
 
             sudo add-apt-repository ppa:nilarimogard/webupd8
@@ -514,7 +508,7 @@ On Elementary OS theres default MAIL app which is nothing but fork of Geary , it
 
 ## Photography
 
-Mobile Photography is my hobby. I find it challenging to take good pics using mobile. **[My photostream @ Flickr](https://www.flickr.com/photos/26648094@N07/albums/72157631613480480)** . This started when I got **iPhone 4** and these days with **OnePlus One**
+Mobile Photography is one of my hobby. I find it challenging to take good pics using mobile. This started when I got my first **iPhone**  and these days with **OnePlus One**
 
 ### Digikam
 
@@ -553,23 +547,7 @@ The games that I have installed
 
 ![](/img/my-linux-laptop-setup/games.png)
 
-## Clean up!
 
-As a final step, let’s get rid of packages and software that are not necessary and taking up our precious disk space.
-
-    sudo apt-get autoclean
-    sudo apt-get clean
-
-#### Peek
-
-Its a simple tool to record your screen and export into multiple formats including gif
-Some of the gifs on this blogs are creating using the same.
-
-        sudo add-apt-repository ppa:peek-developers/stable
-        sudo apt update
-        sudo apt install peek
-
-![](/img/my-linux-laptop-setup/diskspace.png)
 
 ### DevOps Labs Virtualization
 
@@ -651,9 +629,6 @@ If you want IOU support:
 
 #####
 
-sudo apt-get install python3-setuptools
-sudo easy_install3 pip
-
 #### Network Interface Names
 
 Current Ubuntu versions have new naming convention of network interfaces, to get to old ways follow these steps
@@ -683,12 +658,6 @@ future. There are already elementary specific tools
 Finally I have taken complete disk image of the entire ssd using gnome-disk-utilty. Yet to test its restore
 capabilities.
 
-#### Dev web servers
-
-While I use Brackets for web development which comes with inbuilt web server for live preview,
-some times I prefer to run own web server so that I can preview it in the LAN.
-
-Caddy
 
 #### My Wishlist
 
@@ -696,28 +665,24 @@ Eelementary : Wingpanel (More options to customize like auto-hide, slim etc whou
 Better Tray icons
 Officcial dark mode
 
-Computer Hardware : I wish to see bezel less displays on laptop too. At the moment my fav is XPS Developer Edition.
-Unless something better comes
+Computer Hardware : I wish to see real bezel less displays on laptop too. At the moment my fav is XPS Developer Edition. Unless something better comes
 
-Mobile Hardware : Been using classic OnePlus One since it lanuched with multiboot. Exploring new roms when
-ever bored with out disturbing primary rom. Also I have Netrunner as one of the secondary roms...still yet to explore it completely. Having high hopes for next iPhone(8) release.
+Mobile Hardware : Been using classic OnePlus One since it lanuched with multiboot. Exploring new roms when ever bored with out disturbing primary rom. Also I have Netrunner as one of the secondary roms...still yet to explore it completely. Having high hopes for next iPhone(8) release.
 
-My Laptop has a 3G sim slot.....not sure how to use it in Linux
+My Laptop has a 3G sim slot.....not sure how to use it in elementary Linux
 
-#### Mogrify
+## Clean up!
 
-mogrify -path ../PathToFolder/ -format ico -density 600 -define icon:auto-resize=128,64,48,32,16 \*.svg
+As a final step, let’s get rid of packages and software that are not necessary and taking up our precious disk space.
 
-#### Caffeine
-
-When you do not want be disturbed by screen saver etc
-
-sudo add-apt-repository ppa:caffeine-developers/ppa
-sudo apt-get update
-sudo apt-get install caffeine
+    sudo apt-get autoclean
+    sudo apt-get clean
 
 #### Further Elementary OS resources
 
 Google plus group
 Stack Exchange
 https://www.reddit.com/r/elementaryos/
+
+
+
