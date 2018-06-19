@@ -1,2 +1,2 @@
 # kanthi.in-blog
-KINGs Blog based on hugo
+My personal blog based on hugo hosted on netlify.
