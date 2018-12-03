@@ -1,5 +1,5 @@
 +++
-date = "2017-07-01T16:10:28+05:30"
+date = "2018-11-11T16:10:28+05:30"
 title = "How I Use Sublime Text 3"
 draft = true
 tags = [ "sublimetext","setup"]
@@ -10,19 +10,58 @@ categories =["Sublime Text","Setup"]
 ![](/img/my-sublimetext-setup/st31.png)
 ![](/img/my-sublimetext-setup/st32.png)
 
-SublimeText has been my goto text editor since it launched
+SublimeText has been my goto text editor since its launch. Lately I am exploring VSCode, IMHO VSCode has got best pluggin/addon support at the moment and its getting better, though little slow in startup times , it doesnt bother much for my requirements. Hence I have decided to have minimal ST3 setup compared to earlier in favour of VSCode.
 
+A File Icon
+Material Theme
 Package Control
+Terminal
 
-"spell_check": true,
-"dictionary": "Packages/Language - English/en_US.dic",
 
-emmet gtkdarkthemevariantsetter markdown-extended markdown-html-preview markdown-preview materialize package control wakatime
+  SideBar Enhancements
+Bracket​Highlighter
 
+Emmet
+
+Google’s spelling correction
+DocBlockr 
+
+HTML-CSS-JS Prettify
+
+ Vue Syntax Highlight
+
+
+Go Build
+GoFmt
+Gocode
+
+SublimeLinter
+    gometalinter
+
+    SublimeLinter-pyyaml
+    SublimeLinter-pyflakes
+    SublimeLinter-pycodestyle
+    
+Git
+GitGutter
+
+requirementstxt
+
+
+
+    SublimeLinter-json
+    SublimeLinter-jshint
+    SublimeLinter-csslint
+    SublimeLinter-html-tidy
+    
+    
+    
 Trailing Spaces
 livereload
 Sublime Linter
-https://medium.com/@akshaym91/top-sublime-text-3-packages-for-javascript-developers-3c9235c79d44#.ahkx2zyew
+
+
+
 
 TOML syntax highlighting
 
@@ -71,6 +110,8 @@ csslint
 
 #### AutoFileName
 
+Development
+
 ## Python Dev
 
 ## Go Dev
@@ -95,6 +136,11 @@ csslint
 
 http://www.creativebloq.com/web-design/become-sublime-text-power-user-121518438
 
-## Productivity
+AdvancedNewFile
+DocBlockr
+Dockerfile Syntax Highlighting
+Laravel Blade Highlighter
+PHPCompanion
+Vuetify
 
-#### Wakatime
+
