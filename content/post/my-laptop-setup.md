@@ -22,7 +22,7 @@ Mandrake Linux was the only distro at that time known to me until I was introduc
 
 This changed when my friends started using MacBook Pro in year 2010, I couldn't resist myself and went on to install hackintosh on my PC. It took a lot of effort ... I mean I had to struggle with lot of iterations for drivers to make things work. Even though I was using iPhone already, this is my first Mac OS experience. The best thing was how my workflow improved with Mac OS. Though now and then stability was an issue with my Hackintosh.
 
-By the end of 2012, I got my new laptop HP EliteBook 2570p, suddenly I have a laptop with 16GB RAM, Intel Core i7 , dual SSD disk etc. I was determined to have best possible setup. 
+By the end of 2012, I got my new laptop HP EliteBook 2570p, suddenly I have a laptop with 16GB RAM, Intel Core i7 , dual SSD disk etc. I was determined to have best possible setup.
 
 First thing I did was to remove windows 7 on it completely. Initially I considered to go with Hackintosh, after some effort I opted out due to stability issues(Now a days I triple boot into WIN10/Linux on first SSD and Hackinstosh from second ssd on this laptop for my iPad sync). My primary OS is Linux (Elementary OS) unless I specifically need WIN or MacOS.
 
