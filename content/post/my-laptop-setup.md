@@ -14,7 +14,7 @@ categories =["General","Setup","Elementary_OS"]
 
 After being in draft for years I am finally publishing this post updated to my current setup(Loki).
 
-I started writing this as a documentation of my setup for self, then i thought its good to share once experience.
+I started writing this as a documentation of my setup for self, then i thought its good to share my experience.
 
 Linux has always been my choice of OS at home from early days of my computer usage.
 
