@@ -1,7 +1,7 @@
 +++
 
 date = "2020-01-12T14:00:23+05:30"
-draft = false
+draft = true
 title = "My Linux Laptop Setup II ( Hp-Elitebook + Manjaro/Arch ) "
 tags = [ "general","setup","arch_os"]
 categories =["General","Setup","Arch_OS"]
