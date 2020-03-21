@@ -75,7 +75,7 @@ showSocialLinks = true # email, facebook, twitter ...
 enableLangChange = true # show button at bottom left of footer.
 
 # service
-googleTagManager = "" # GTM-XXXXXX
+#googleTagManager = "" # GTM-XXXXXX
 #baiduAnalytics = "" # alternative of google analytics
 #enableBusuanzi = false # if set true, total page view, total unique visitors show up in the footer.
 #busuanziSiteUV = true # unique visitors (total number of visitors)
@@ -83,9 +83,9 @@ googleTagManager = "" # GTM-XXXXXX
 #busuanziPagePV = true # post view count
 
 # comment
-enableComment = true
-disqus_shortname = "" 
-commento = false
+#enableComment = true
+#disqus_shortname = "" 
+#commento = false
 
 
 [socialOptions] # if set, social icons will show up.
