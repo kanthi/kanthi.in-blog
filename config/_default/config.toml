@@ -1,5 +1,5 @@
 baseURL = "http://kanthi.in/" # The URL of your site.
-title = "K.I.N.G." # Title of your site
+title = "k1n9" # Title of your site
 theme = "zzo" # Name of Zzo theme folder in `themes/`.
 
 defaultContentLanguage = "en" # Default language to use (if you setup multilingual)
