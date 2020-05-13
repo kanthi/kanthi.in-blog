@@ -5,8 +5,8 @@ draft = false
 title = "My Linux Setup I (Hp-Elitebook + ElementaryOS)"
 tags = [ "general","setup","elementary_os"]
 categories =["General","Setup","Elementary_OS"]
-bookToc = false
-hideToc = false
+bookToc = true
+hideToc = true
 
 +++
 

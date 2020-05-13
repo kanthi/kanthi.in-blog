@@ -5,8 +5,8 @@ draft = true
 title = "My Linux Laptop Setup II (2020) "
 tags = [ "general","setup","manjaro_os"]
 categories =["General","Setup","Manjaro_OS"]
-bookToc = false
-hideToc = false
+bookToc = true
+hideToc = true
 
 +++
 

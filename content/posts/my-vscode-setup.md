@@ -5,5 +5,7 @@ draft = true
 title = " My VScode Setup "
 tags = [ "general","setup","vscode"]
 categories =["General","Setup","VScode"]
+bookToc = true
+hideToc = true
 
 +++

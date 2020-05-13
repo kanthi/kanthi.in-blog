@@ -4,6 +4,8 @@ title = "How I Use Sublime Text 3"
 draft = true
 tags = [ "sublimetext","setup"]
 categories =["Sublime Text","Setup"]
+bookToc = true
+hideToc = true
 
 +++
 
