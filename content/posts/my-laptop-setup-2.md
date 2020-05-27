@@ -227,3 +227,6 @@ Install GNS3
 
 
 popsicle
+
+
+In the future it will be a Macbook Pro laptop or Laptop with official Linux support like Dell XPS Developer edition or even upcoming Lenovo+Fedora
