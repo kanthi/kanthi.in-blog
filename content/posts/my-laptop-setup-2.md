@@ -19,6 +19,12 @@ As I have mentioned earlier Slackware being my first Linux experience, wanted to
 
 ![](/img/my-linux-laptop-setup-2/1.png)
 
+![](/img/my-linux-laptop-setup-2/2.png)
+
+![](/img/my-linux-laptop-setup-2/3.png)
+
+#### 
+
 #### Update and Upgrade system
 First thing to do after Installation is full system update
 
@@ -227,3 +233,4 @@ Install GNS3
 
 
 popsicle
+
