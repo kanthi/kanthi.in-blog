@@ -1,6 +1,6 @@
 +++
 
-date = "2020-01-12T14:00:23+05:30"
+date = "2020-06-02T14:00:23+05:30"
 draft = true
 title = "My Linux Laptop Setup II (2020) "
 tags = [ "general","setup","manjaro_os"]
