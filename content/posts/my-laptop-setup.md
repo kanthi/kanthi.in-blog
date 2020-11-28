@@ -1,7 +1,7 @@
 +++
 
 date = "2017-06-21T14:00:23+05:30"
-draft = true
+draft = false
 title = "My Linux Setup I (Hp-Elitebook + ElementaryOS)"
 tags = [ "general","setup","elementary_os"]
 categories =["General","Setup","Elementary_OS"]

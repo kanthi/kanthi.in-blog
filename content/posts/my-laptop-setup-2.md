@@ -1,7 +1,7 @@
 +++
 
 date = "2020-06-02T14:00:23+05:30"
-draft = true
+draft = false
 title = "My Linux Laptop Setup II (2020) "
 tags = [ "general","setup","manjaro_os"]
 categories =["General","Setup","Manjaro_OS"]
@@ -11,9 +11,11 @@ hideToc = true
 +++
 
 After using Elementary OS for almost half a decade...since Luna release. I wanted to explore other distros.
-As I have mentioned earlier Slackware being my first Linux experience, wanted to go for something similar this time and ended up with arch based Manjaro, it turned out to be great choice. Still using the same laptop (HP EliteBook 2570P)
+As I have mentioned earlier Slackware being my first Linux experience, wanted to go for something similar this time and ended up with arch based Manjaro, it turned out to be great choice. Still using the same laptop from my previous setup post(HP EliteBook 2570P)
 
  The following is a documentation of the new setup.
+![](/img/my-linux-laptop-setup-2/4.png)
+![](/img/my-linux-laptop-setup-2/5.png)
 
 ![](/img/my-linux-laptop-setup-2/0.png)
 
@@ -26,6 +28,7 @@ As I have mentioned earlier Slackware being my first Linux experience, wanted to
 #### 
 
 #### Update and Upgrade system
+
 First thing to do after Installation is full system update
 
 #### Privacy Settings
@@ -43,13 +46,6 @@ Docker
 
 Geary
 
-Browser
-
-​	Chrome
-
-​	Firefox
-
-​	Opera
 
 Disable tracker(Gnome)
 
@@ -62,6 +58,7 @@ Install Media players
 MPVplayer
 Audacious
 
+Solanum Timer app
 
 
 VMware Workstation
@@ -91,19 +88,16 @@ Browsers
     Opera
     Firefox
     Brave
+    Vivaldi
 
 Cloud Storage
 
-    Mega
     Dropbox
 
 Github Desktop
 
 
-Calibre ( I still use version 3.X)
-
-sudo -v  && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin version=3.48.0
-
+Calibre Version 5
 
 Redshift
 Caffein
@@ -120,22 +114,26 @@ Programming Languages
         PWSH
         Ruby
 
-Latte Dock
+
 
 Graphic Design
     Inkscape
 
 
-Code Editors
+Text / Code Editors
 
+	Gedit
     VSCode
     Sublime Text
     Android Studio
 
 Labs
+   
     VMware workstation
+    VirtualBox
     KVM
     GNS3/ EVENG
+    Docker
 
 
 sudo pacman -Syu python-pip
@@ -227,7 +225,7 @@ sudo usermod -aG docker $USER
 
 Joplin
 Cherry Tree
-
+Notion
 
 Install GNS3
 
