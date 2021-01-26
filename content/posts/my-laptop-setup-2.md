@@ -13,7 +13,8 @@ hideToc = true
 After using Elementary OS for almost half a decade...since Luna release. I wanted to explore other distros.
 As I have mentioned earlier Slackware being my first Linux experience, wanted to go for something similar this time and ended up with arch based Manjaro, it turned out to be great choice. Still using the same laptop from my previous setup post(HP EliteBook 2570P)
 
- The following is a documentation of the new setup.
+The following is a documentation of the new setup.
+
 ![](/img/my-linux-laptop-setup-2/4.png)
 ![](/img/my-linux-laptop-setup-2/5.png)
 
