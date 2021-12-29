@@ -1,7 +1,7 @@
 +++
 date = "2018-11-11T16:10:28+05:30"
 title = "How I Use Sublime Text 3"
-draft = true
+draft = false
 tags = [ "sublimetext","setup"]
 categories =["Sublime Text","Setup"]
 bookToc = true
@@ -12,42 +12,22 @@ hideToc = true
 ![](/img/my-sublimetext-setup/st31.png)
 ![](/img/my-sublimetext-setup/st32.png)
 
-SublimeText has been my goto text editor since its launch. Lately I am exploring VSCode, IMHO VSCode has got best pluggin/addon support at the moment and its getting better, though little slow in startup times , it doesnt bother much for my requirements. Hence I have decided to have minimal ST3 setup compared to earlier in favour of VSCode.
+SublimeText has been my goto editor since its launch. Lately I am exploring VSCode, IMHO VSCode has got best pluggin/addon support at the moment and its getting better, though little slow in startup times . Hence I have decided to have minimal ST3 setup compared to earlier in favour of VSCode.
 
 A File Icon
 Material Theme
-Package Control
-Terminal
 
 
-  SideBar Enhancements
+SideBar Enhancements
 Bracket​Highlighter
-
 Emmet
 
 Google’s spelling correction
 DocBlockr 
 
 HTML-CSS-JS Prettify
-
- Vue Syntax Highlight
-
-
-Go Build
-GoFmt
-Gocode
-
-SublimeLinter
-    gometalinter
-
-    SublimeLinter-pyyaml
-    SublimeLinter-pyflakes
-    SublimeLinter-pycodestyle
-    
 Git
 GitGutter
-
-requirementstxt
 
 
 
@@ -60,7 +40,7 @@ requirementstxt
     
 Trailing Spaces
 livereload
-Sublime Linter
+
 
 
 
@@ -73,8 +53,8 @@ Zeal
 https://packagecontrol.io/packages/Zeal
 
 MarkdownEditing
-ThemeScheduler
-GoTools
+
+
 
 ColorHighlighter
 http://andrejgajdos.com/my-sublime-text-packages-for-front-end-development/
@@ -99,16 +79,13 @@ GtkDarkThemeVariantSetter
 
 #### SublimeLinter
 
-scsslint
-jshint
-jscs
-csslint
+
 
 #### ColorHighlighter
 
 #### BracketHighlighter
 
-#### Themr
+
 
 #### AutoFileName
 
@@ -141,8 +118,20 @@ http://www.creativebloq.com/web-design/become-sublime-text-power-user-121518438
 AdvancedNewFile
 DocBlockr
 Dockerfile Syntax Highlighting
-Laravel Blade Highlighter
-PHPCompanion
-Vuetify
 
 
+Sidebar Enhancement
+Emmet
+Git
+BracketHighlilghter
+Alignment
+
+Colorpicker
+
+All Autocomplete
+
+A File Icon
+
+SASS
+
+Terminus
