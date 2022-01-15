@@ -1,7 +1,7 @@
 +++
 date = "2018-11-11T16:10:28+05:30"
 title = "How I Use Sublime Text 3"
-draft = false
+draft = true
 tags = [ "sublimetext","setup"]
 categories =["Sublime Text","Setup"]
 bookToc = true
